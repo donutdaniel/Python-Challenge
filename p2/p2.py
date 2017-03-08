@@ -1,19 +1,26 @@
-def translate(str):
-	temp = ""
-	for c in str:
-		if c >= 'a' and c <= 'x':
-			c = chr(ord(c) + 2)
-		elif c == 'y':
-			c = 'a'
-		elif c == 'z':
-			c = 'b'
+import string
+import sys
 
-		temp += c
+#error output if no data file provided
+if len(sys.argv) < 2:
+	print("Error. Please provide input file.")
+	sys.exit()
 
-	return temp
+#reads file containing string to be analyzed
+#converts to string called data
+# ifile = sys.argv[1];
+# with open(ifile, 'r') as myfile:
+# 	data = myfile.read().replace('\n', '')
 
-print(translate("g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."))
+data = open(sys.argv[1], 'r').read().replace('\n', '')
 
-key = translate("map")
+#remove punctuation
+#python3
+table = data.maketrans('', '', string.punctuation)
+key = data.translate(table)
+
+#python2.7 implementation
+#key = data.translate(None, string.punctuation)
+
 print("key is %s" % key)
 print("http://www.pythonchallenge.com/pc/def/%s.html" % key)

@@ -8,19 +8,24 @@ if len(sys.argv) < 2:
 
 #reads file containing string to be analyzed
 #converts to string called data
-# ifile = sys.argv[1];
-# with open(ifile, 'r') as myfile:
-# 	data = myfile.read().replace('\n', '')
-
 data = open(sys.argv[1], 'r').read().replace('\n', '')
 
-#remove punctuation
-#python3
-table = data.maketrans('', '', string.punctuation)
-key = data.translate(table)
+#global variable
+found = ""
+array = []
 
-#python2.7 implementation
-#key = data.translate(None, string.punctuation)
+#Function that takes in a string of size 9, and analyzes for correct format
+def bodyguard(s):
+	if s[0].islower() and s[1:4].isupper() and s[4].islower() and s[5:8].isupper() and s[8].islower():
+		array.append(s[1:8])
+		return s[1:8]
 
-print("key is %s" % key)
-print("http://www.pythonchallenge.com/pc/def/%s.html" % key)
+for i in range(0, len(data)-8):
+	temp = bodyguard(data[i:i+9])
+	if temp != None:
+		found = temp
+
+
+print(array)
+print("The key is %s" % found)
+print("http://www.pythonchallenge.com/pc/def/%s.html" % found)
