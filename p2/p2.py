@@ -8,10 +8,6 @@ if len(sys.argv) < 2:
 
 #reads file containing string to be analyzed
 #converts to string called data
-# ifile = sys.argv[1];
-# with open(ifile, 'r') as myfile:
-# 	data = myfile.read().replace('\n', '')
-
 data = open(sys.argv[1], 'r').read().replace('\n', '')
 
 #remove punctuation
