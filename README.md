@@ -46,5 +46,9 @@ By Daniel Ho
 
 ### **Problem 6**	
 * Source comment says "zip", so I thought okay... python zip() function... zip file... maybe changing the key to zip?	
-* changing channel to zip in the url only tells me to "find the zip". I tried zipper, and got something really weird, telling me [:n] is to take first n characters. Turns out, changing the .html to .zip gives me a downloadable zip file.	
-* In that zip was a folder, and it contained another linkedlist type problem (nothing=xxxxx).
+* changing channel to zip in the url only tells me to "find the zip". I tried zipper, and got something really weird, telling me [:n] is to take first n characters. Turns out, changing the .html to .zip gives me a downloadable zip file.		
+* In that zip was a folder, and it contained another linkedlist type problem (nothing=xxxxx). The end says "collect the comments"	
+* Zipfile artifacts have comments in them. Putting it all together prints another ascii art: hockey.
+* hockey is not the correct answer. Looking closer, hockey is spelled out with letters in oxygen.
+	
+### **Problem 7**
