@@ -44,4 +44,7 @@ By Daniel Ho
 * Runtime: O(n^2), n is lists/characters on a line (doesn't necessarily have to be the same, but for sake of simplicity, n^2)	
 * ASCII art shows "channel"	
 
-### **Problem 6**
+### **Problem 6**	
+* Source comment says "zip", so I thought okay... python zip() function... zip file... maybe changing the key to zip?	
+* changing channel to zip in the url only tells me to "find the zip". I tried zipper, and got something really weird, telling me [:n] is to take first n characters. Turns out, changing the .html to .zip gives me a downloadable zip file.	
+* In that zip was a folder, and it contained another linkedlist type problem (nothing=xxxxx).
