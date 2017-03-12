@@ -38,7 +38,7 @@ By Daniel Ho
 * peak.html is the tail	
 	
 ### **Problem 5**	
-* Wow, this one was difficult... mostly because I didn't know what pickle was. Thanks obama.	
+* Wow, this one was difficult... mostly because I didn't know what pickle was. Thanks Obama.	
 * At first I tried unpickling the image, but it wouldn't work. I realized there was a different file inside the source, and unpickled that.	
 * Printing the object revealed that it was a list...of lists...of even more lists. Spacing and #'s screamed ASCII art, so I put it through a nested loop to print it out. 	
 * Runtime: O(n^2), n is lists/characters on a line (doesn't necessarily have to be the same, but for sake of simplicity, n^2)	
@@ -51,4 +51,7 @@ By Daniel Ho
 * Zipfile artifacts have comments in them. Putting it all together prints another ascii art: hockey.
 * hockey is not the correct answer. Looking closer, hockey is spelled out with letters in oxygen.
 	
-### **Problem 7**
+### **Problem 7**	
+* Image processing. Originally, I used pypng module, but PIL (pillow in python 3.x) is much better. 	
+* Use the getpixel() function for the greyscale line in the middle of the image. Every 7 steps, translate the color code to ASCII characters. The ending characters give an array of numbers, which then translate to ASCII chars again.
+* Key is integrity
