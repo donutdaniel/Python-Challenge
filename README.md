@@ -55,3 +55,8 @@ By Daniel Ho
 * Image processing. Originally, I used pypng module, but PIL (pillow in python 3.x) is much better. 	
 * Use the getpixel() function for the greyscale line in the middle of the image. Every 7 steps, translate the color code to ASCII characters. The ending characters give an array of numbers, which then translate to ASCII chars again.
 * Key is integrity
+
+### **Problem 8**
+* Absolutely no idea what format the username and password was in. I had to google some hints in order to know to use bzip2 (bz2). 
+* Convert string to bytes, then decompress it. Username is huge, password is file.
+	
