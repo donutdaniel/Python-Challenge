@@ -61,4 +61,4 @@ By Daniel Ho
 * Convert string to bytes, then decompress it. Username is huge, password is file.
 	
 ### **Problem 9**
-* 
+* Use the coordinate (assume to be coords) provided in comments, and ImageDraw to trace a polygon. Makes a cow image. cow.html says "hmmm, it's a male."

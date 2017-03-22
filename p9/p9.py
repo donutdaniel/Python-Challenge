@@ -1,6 +1,4 @@
-import Image
-
-img = Image.open(good.jpg)
+from PIL import Image, ImageDraw
 
 first = [146,399,163,403,170,393,169,391,166,386,170,381,170,371,170,355,169,346,167,335,170,329,170,320,170,
 310,171,301,173,290,178,289,182,287,188,286,190,286,192,291,194,296,195,305,194,307,191,312,190,316,
@@ -26,3 +24,13 @@ second = [156,141,165,135,169,131,176,130,187,134,191,140,191,146,186,150,179,15
 125,217,119,209,116,196,115,185,114,172,114,167,112,161,109,165,107,170,99,171,97,167,89,164,81,162,
 77,155,81,148,87,140,96,138,105,141,110,136,111,126,113,129,118,117,128,114,137,115,146,114,155,115,
 158,121,157,128,156,134,157,136,156,136]
+
+img = Image.new('RGB', (500, 500), 'white')
+draw = ImageDraw.Draw(img);
+#could be x,y coords, use polygon
+draw.polygon(first, 'white', 'black')
+draw.polygon(second, 'white', 'black')
+img.save('draw.jpg')
+
+print("inspect the image to find a cow. replace good with cow, and it tells you its a male. Male cows are bulls.")
+print("key = bull")
