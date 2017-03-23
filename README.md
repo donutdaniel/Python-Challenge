@@ -62,3 +62,12 @@ By Daniel Ho
 	
 ### **Problem 9**
 * Use the coordinate (assume to be coords) provided in comments, and ImageDraw to trace a polygon. Makes a cow image. cow.html says "hmmm, it's a male."
+* Boom. Knowledge. Male cows are called bulls... so bull.html is the key.
+
+### **Problem 10**
+* Classic Look-and-Say Sequence... just have to find the length of the 30th index.
+* Not too hard. Recursion helps. Length is 5808.
+
+### **Problem 11**
+* By the looks of it, I'll have to separate the odd/even pixels in the mashed image.
+* The even separation shows the word "evil". Key is evil.
