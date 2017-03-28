@@ -71,3 +71,7 @@ By Daniel Ho
 ### **Problem 11**
 * By the looks of it, I'll have to separate the odd/even pixels in the mashed image.
 * The even separation shows the word "evil". Key is evil.
+
+### **Problem 12**
+* Page only has an image, but named evil1.jpg. Why evil1? Changing the address to evil2.jpg provides another image, telling us to change the extension to .gfx
+* 
