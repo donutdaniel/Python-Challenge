@@ -74,4 +74,6 @@ By Daniel Ho
 
 ### **Problem 12**
 * Page only has an image, but named evil1.jpg. Why evil1? Changing the address to evil2.jpg provides another image, telling us to change the extension to .gfx
-* 
+* Yeah...stuck on what to do with .gfx file, so I opened up evil3, and evil4. Lo and behold, if I used cURL on evil4 - outputting "Bert is evil! go back!". Go to bert.html
+* That leads to nothing, so go back to evil2.gfx. Opening the file and "dealing" them into stacks of 5, saving them as .jpg's
+* They spell out: Disproportional
