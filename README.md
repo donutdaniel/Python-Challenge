@@ -77,3 +77,7 @@ By Daniel Ho
 * Yeah...stuck on what to do with .gfx file, so I opened up evil3, and evil4. Lo and behold, if I used cURL on evil4 - outputting "Bert is evil! go back!". Go to bert.html
 * That leads to nothing, so go back to evil2.gfx. Opening the file and "dealing" them into stacks of 5, saving them as .jpg's
 * They spell out: Disproportional
+
+### **Problem 13**
+* Digging through the webpage returned an xml file, which I could access through the xmlrpc.client module
+* Using all the functions provided by the module, I was able to get the phone method to work. Calling "Bert" (Thanks Problem 12) responded with "555-ITALY". The key is Italy.
