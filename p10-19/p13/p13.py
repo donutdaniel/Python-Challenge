@@ -1,0 +1,10 @@
+import xmlrpc.client
+
+proxy = xmlrpc.client.ServerProxy("http://www.pythonchallenge.com/pc/phonebook.php")
+
+print(proxy.system.listMethods())
+print(proxy.system.methodSignature("phone"))
+print(proxy.system.methodHelp("phone"))
+
+print(proxy.phone("Bert"))
+print("the key is ITALY")
