@@ -81,3 +81,9 @@ By Daniel Ho
 ### **Problem 13**
 * Digging through the webpage returned an xml file, which I could access through the xmlrpc.client module
 * Using all the functions provided by the module, I was able to get the phone method to work. Calling "Bert" (Thanks Problem 12) responded with "555-ITALY". The key is Italy.
+	
+### **Problem 14**
+* The bun has a swirl, and the image below it is a wire. Coiling the wire outputs a cat image.
+* Key as cat tells us that the cat is named Uzi. Key to problem 15 is uzi.
+	
+	
