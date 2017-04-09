@@ -86,4 +86,8 @@ By Daniel Ho
 * The bun has a swirl, and the image below it is a wire. Coiling the wire outputs a cat image.
 * Key as cat tells us that the cat is named Uzi. Key to problem 15 is uzi.
 	
-	
+### **Problem 15**
+* The year is burned out - I'm assuming 1xx6. The 26th is circled. It is also a leap year, based on the fact that Feburary has 29 days. 
+* Using the datetime module, I looped through each valid year and sorted out the ones that were leap year AND had the 26th fall on a thursday.
+* second from youngest is 1756-01-26
+* Nobody born on that day, but Mozart is born on the 27th. Key is Mozart.
