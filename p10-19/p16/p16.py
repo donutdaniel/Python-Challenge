@@ -12,6 +12,12 @@ for x in colors:
 		pink = x[0]
 
 #align image
-for y in range(img.height):
+for y in range(height):
 	#copy paste
-	temp = img.crop((0, y, img.width, height))
+	row = img.crop((0, y, img.width, y+1))
+	#shift
+	row = ImageChops.offset(row, -(row.tobytes().index(pink)))
+	#insert back in
+	img.paste(row, (0, y, img.width, y+1))
+
+img.save("result.gif")
