@@ -91,3 +91,7 @@ By Daniel Ho
 * Using the datetime module, I looped through each valid year and sorted out the ones that were leap year AND had the 26th fall on a thursday.
 * second from youngest is 1756-01-26
 * Nobody born on that day, but Mozart is born on the 27th. Key is Mozart.
+
+### **Problem 16**
+* Image manipulation again. Have to align all the pink, but have to first find pink. Googled for help.
+* 
