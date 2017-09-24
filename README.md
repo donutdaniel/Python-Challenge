@@ -94,3 +94,6 @@ By Daniel Ho
 * Shift all the pink to the left, image reads "romance". Key is romance.	
 	
 ### **Problem 17**
+* Looking at the browser cookie, the content says "you should have followed busy nothing"
+* reuse problem 4 (linked list web crawler) code to fit "busynothing" to "nothing"
+* have to read cookies from every linked list
